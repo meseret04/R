@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526665612039.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3F065B68",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1526665612039,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1E8348D2",
+        "caption" : "iris3",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=iris3&cache_key=1E8348D2",
+        "displayedObservations" : "150",
+        "environment" : "",
+        "object" : "iris3",
+        "preview" : "0",
+        "totalObservations" : "150",
+        "variables" : "7"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

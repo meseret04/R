@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n## load library\nlibrary(tidyverse)\nlibrary(magrittr)\n\n## load data\ndata(\"iris\")\n\n## select setosa group\nsetosa = iris[iris$Species == \"setosa\", ]\n\n## Option-2: select setosa\nsetosa_2 = iris %>% \n  dplyr::filter(Species == \"setosa\") %>% \n  dplyr::select(c(1,2))\n\n## Ex11. Find setosa flowers whose Sepal.Length2 value are non-missing from IRIS3 dataset\nirisnew=iris3[iris3$Species == \"setosa\" & !is.na(iris3$Sepal.Length2), ]\n\n## option-2\nirisnew_2 = iris3 %>% \n  dplyr::filter(Species == \"setosa\") %>% \n  dplyr::filter(!is.na(Sepal.Length2))\n\n\n\n\n",
+    "created" : 1526663860214.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3166083543",
+    "id" : "403CB41C",
+    "lastKnownWriteTime" : 1526667319,
+    "last_content_update" : 1526667319779,
+    "path" : "C:/Users/sony/Dropbox/Data Science/GitHub/R/my_first_project/test.R",
+    "project_path" : "test.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
